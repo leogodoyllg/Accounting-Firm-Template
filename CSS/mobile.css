@@ -1,0 +1,69 @@
+/* Tablets */
+
+/* Services - Icons to the left and Stack items*/
+#services .items{
+  display: block;
+  padding: 1rem
+}
+
+#services .items .item{
+  display: flex;
+  text-align: left;
+}
+
+#services .items .item i{
+  margin-right: 1.3rem;
+  align-self: center;
+  margin-bottom: 0;
+}
+
+/* Smartphones */
+@media(max-width: 510px){
+  /* Nav Bar */
+  #nav-bar{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #nav-bar .logo{
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  #showcase .showcase-content{
+    margin-top: -2rem;
+  }
+
+  /* Team Section */
+
+  #team{
+    flex-direction: column;
+  }
+
+  #team .team-img{
+    flex-basis: 200px;
+    border-top: #333 solid 5px;
+  }
+
+  /* Contact Section */
+  #contact{
+    flex-direction: column;
+  }
+
+  #contact .map{
+    flex-basis: 300px;
+    border-top: #333 solid 5px;
+  }
+}
+
+/* Iphone 5 */
+
+@media(max-height: 568px){
+  .l-heading{
+    font-size: 3rem;
+  }
+
+  .lead{
+    font-size: 1rem;
+  }
+}
